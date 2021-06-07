@@ -1,0 +1,14 @@
+Package: stat210
+Type: Package
+Title: Datasets for the course STAT210 (NMBU)
+Version: 0.1.0
+Author: Lars Erik Gangsei & Ngan Bao Huynh
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.1

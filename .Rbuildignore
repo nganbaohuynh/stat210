@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^D:/NMBU/Summerjob/stat210/data_raw$
+^D:/NMBU/Summerjob/stat210/stat210\.Rproj$
+usethis::use_data_raw()
+^data-raw$
