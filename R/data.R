@@ -149,7 +149,7 @@
 
 #' EX14_1Montg_data
 #'
-#' Data from Excample 14.1 in "Montgommery, D. Dessign and Analysis of Experiments. 9th Ed. Wiley."
+#' Data from Example 14.1 in "Montgommery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
 #'
 #' @format Data for a total of 3 samples in a nested design.
 #' \describe{
@@ -160,3 +160,308 @@
 #' @examples
 #' lm(Purity ~ Supplier, data = EX14_1Montg_data)
 "EX14_1Montg_data"
+
+#' problem2.22
+#'
+#' Data from Exercise 2.22 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format The shelf life of a carbonated beverage is of interest.
+#' Ten bottles are randomly selected and tested and the data are the shelf life (in days)
+#' of each bottle
+#'
+#' @examples
+#' summary(problem2.22)
+"problem2.22"
+
+#' problem2.24
+#'
+#' Data from Exercise 2.24 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format The time to repair an electronic instrument is a normally distributed random variable measured in hours.
+#' The repair times for 16 such instruments were chosen at random.
+#'
+#' @examples
+#' summary(problem2.24)
+"problem2.24"
+
+#' problem2.26
+#'
+#' Data from Exercise 2.26 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format Two machines are used for filling plastic bottles with a net volume of 16 ounces.
+#' The filling processes can be assumed to be normal, with standard deviation of 0.015 and 0.018.
+#' The quality engineering department suspects that both machines fill to the same net volume, whether or not this volume is 16 ounces.
+#' An experiment is performed by taking a random sample from the output of each machine.
+#'
+#' @examples
+#' summary(problem2.26)
+"problem2.26"
+
+#' problem2.28
+#'
+#' Data from Exercise 2.28 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format The data are the burning times (in minutes) of chemical flares of two different formulations.
+#' The design engineers are interested in both the mean and variances of the burning times.
+#'
+#' @examples
+#' summary(problem2.28)
+"problem2.28"
+
+#' problem2.29
+#'
+#' Data from Exercise 2.29 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format An article in Solid State Technology, "Orthogonal Design for Process Optimization
+#' and Its Application to Plasma Etching" by G.Z. Yin and D.W. Jillie (May 1987)
+#' describes an experiment to determine the effect of the C2F6 flow rate on the
+#' uniformity of the etch on a silicon wafer used in integrated circuit manufacturing.
+#' All of the runs were made in random order. Data are the uniformity observation of the two flow rates.
+#'
+#' @examples
+#' summary(problem2.29)
+"problem2.29"
+
+#' problem2.31
+#'
+#' Data from Exercise 2.31 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format Photoresist is a light0sensitive material applied to semi-conductor
+#' wafers so that the circuit pattern can be imaged on to the wafer. After application,
+#' the coated wafers are baked to remove the solvent in the photoresist mixture and to harden the resist.
+#' Data are the measuremnets of photoresist thickness (in kA) for eight wafers baked at two different temperatures.
+#' Assume that all of the runs were made in random order.
+#'
+#' @examples
+#' summary(problem2.31)
+"problem2.31"
+
+#' problem2.32
+#'
+#' Data from Exercise 2.32 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format Front housings for cellphones are manufactured in an injection molding process.
+#' The time the part is allowed to cool in the mold before removal is thought to influence
+#' the occurrence of a particularly troublesome cosmetic defect, flow lines, in the finished
+#' housing. After manufacturing, the housings are inspected visually and assigned a score between
+#' 1 and 10 based on their appearance, with 10 corresponding to a perfect part and 1 corresponding to a completely defective part.
+#' An experiment was conducted using two cool-down times, 10 and 20 seconds, and 20 housings were evaluated at each level of cool-down time.
+#' All 40 observations in this experiment were run in random order.
+#'
+#' @examples
+#' summary(problem2.32)
+"problem2.32"
+
+#' problem2.33
+#'
+#' Data from Exercise 2.33 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format Twenty observaions on etch uniformity on cilicon wafers are taken during a qualification experiment for a plasma etcher.
+#'
+#' @examples
+#' summary(problem2.33)
+"problem2.33"
+
+#' problem2.34
+#'
+#' Data from Exercise 2.34 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format The diameter of ball bearing was measured by 12 inspectors, each using two different kinds of calipers.
+#'
+#' @examples
+#' summary(problem2.34)
+"problem2.34"
+
+#' problem2.35
+#'
+#' Data from Exercise 2.35 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format An article observed that monozygotic twins share numerous physical, psychological and pathological traits.
+#' The investigators measured an intelligence score of 10 pairs of twins.
+#'
+#' @examples
+#' summary(problem2.35)
+"problem2.35"
+
+#' problem2.36
+#'
+#' Data from Exercise 2.36 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format An article compares several procedures for predicting the shear strength for steel plate girders.
+#' The data show nine girders in the form of the ratio of predicted to observed load for two of these procedures, the Karlsruhe and Lehigh methods.
+#'
+#' @examples
+#' summary(problem2.36)
+"problem2.36"
+
+#' problem2.37
+#'
+#' Data from Exercise 2.37 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format The deflection temperature under load for two different formulations of ABS
+#' plastic pipe is being studied. Two samples of 12 observations each are prepared using
+#' each formulation and the deflection temperatures (in F degree) are reported.
+#'
+#' @examples
+#' summary(problem2.37)
+"problem2.37"
+
+#' problem2.39
+#'
+#' Data from Exercise 2.39 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format In semiconductor manufacturing, wet chemical etching is often used to
+#' remove silicon from the backs of wafers prior to metalization, The etch rate is an important
+#' characteristic of this process. two different etching solutions are being evaluated. Eight
+#' randomly selected wafers have been etched in each solution, and the observed etch rates (in mils/min)
+#' are reported.
+#'
+#' @examples
+#' summary(problem2.39)
+"problem2.39"
+
+#' problem2.45
+#'
+#' Data from Exercise 2.45 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format Data for developing equation 2.50 from textbook
+#'
+#' @examples
+#' summary(problem2.45)
+"problem2.45"
+
+#' problem2.46
+#'
+#' Data from Exercise 2.46 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format Data for developing equation for finding confidence interval on the difference in the
+#' means of two normal distributions where variances are different.
+#'
+#' @examples
+#' summary(problem2.46)
+"problem2.46"
+
+#' problem3.10
+#'
+#' Data from Exercise 3.10 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format An article described a randomized, double-blind, sham-controlled, feasibility
+#' and dosing study to determine if a common pulsing electromagnetic field (PEMF) treatment
+#' could moderate the substantial osteopenia that occurs after forearm disuse. Subjects were
+#' randomized into 4 groups after a distal radius fracture, or carpal surgery requiring immobilization
+#' in a cast. Active or identical sham PEMF transducers were worn on the distal forearm for 1, 2, or 4 h/day
+#' for 8 weeks starting after cast removal ("baseline") when bon density continues to decline. Bone mineral
+#' density (BMD) and bone geometry were measured in the distal forearm by dual energy X-ray absortiometry (DXA)
+#' and peripheral quantitative computed tomography (pQCT). The data are the percent losses in BMD measurements on
+#' the radius after 16 weeks for patients wearing the active or sham PEMF transducers for 1, 2, or 4 h/day (data
+#' were constructed to match the means and standard deviations read from a graph in the paper)
+#'
+#' @examples
+#' summary(problem3.10)
+"problem3.10"
+
+#' problem3.11
+#'
+#' Data from Exercise 3.11 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format The tensile strength of Portland cement is being studied. 4 different mixing techniques
+#' can be used economically. A completely randomized experiment was conducted.
+#'
+#' @examples
+#' summary(problem3.11)
+"problem3.11"
+
+#' problem3.14
+#'
+#' Data from Exercise 3.14 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format A product developer is investigating the tensile strength of a new synthetic
+#' fiber that will be used to make cloth for men's shirts. Strength is usually affected
+#' by the percentage of cotton used in the blend of materials for the fiber. The engineer
+#' conducts a completely randomized experiment with five levels of cotton content and replicates
+#' the experiment 5 times.
+#'
+#' @examples
+#' summary(problem3.14)
+"problem3.14"
+
+#' problem3.16
+#'
+#' Data from Exercise 3.16 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format A pharmaceutical manufacturer wants to investigate the bioactivity of a new drug. A completely
+#' randomized single-factor experiment was conducted with three dosage levels, and the following results were obtained.
+#'
+#' @examples
+#' summary(problem3.16)
+"problem3.16"
+
+#' problem3.17
+#'
+#' Data from Exercise 3.17 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format A rental care company wants to investigate whether the type of car rented affects the
+#' length of the rental period. An experiment is run for one week at a particular location, and 10
+#' rental contracts are selecyed at random for each car type.
+#'
+#' @examples
+#' summary(problem3.17)
+"problem3.17"
+
+#' problem3.18
+#'
+#' Data from Exercise 3.18 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format Data are the scores of golf play divided by the golf season in the year:
+#' summer, winter and shoulder. The player wanted to test his hypothesis on which
+#' season he achieved the best golf play.
+#'
+#' @examples
+#' summary(problem3.18)
+"problem3.18"
+
+#' problem3.19
+#'
+#' Data from Exercise 3.19 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format A regional opera company has tried 3 approaches to solicit donations from 24 potential
+#' sponsors. The sponsors were randomly divided into three groups of eight and one approach was used for each group.
+#' The data showed the dollar amounts of the resulting contributions.
+#'
+#' @examples
+#' summary(problem3.19)
+"problem3.19"
+
+#' problem3.20
+#'
+#' Data from Exercise 3.20 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format An experiment was run to determine whether 4 specific firing temperatures affect the
+#' density of a certain type of brick. The temperatures are: 100, 125, 150 and 175.
+#'
+#' @examples
+#' summary(problem3.20)
+"problem3.20"
+
+#' problem3.22
+#'
+#' Data from Exercise 3.22 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format A manufacturer of television sets is interested in the effect on tube conductivity of
+#' four different types of coating for color picture tubes. A complete randomized experiment was
+#' conducted.
+#'
+#' @examples
+#' summary(problem3.22)
+"problem3.22"
+
+#' problem3.26
+#'
+#' Data from Exercise 3.26 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#'
+#' @format The response time in milliseconds was determined for 3 different types of circuits that
+#' could be used in an automatic valve shutoff mechanism.
+#'
+#' @examples
+#' summary(problem3.26)
+"problem3.26"

@@ -16,7 +16,7 @@ Data for a total of 3 samples in a nested design.
 EX14_1Montg_data
 }
 \description{
-Data from Excample 14.1 in "Montgommery, D. Dessign and Analysis of Experiments. 9th Ed. Wiley."
+Data from Example 14.1 in "Montgommery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
 }
 \examples{
 lm(Purity ~ Supplier, data = EX14_1Montg_data)
