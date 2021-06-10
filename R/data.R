@@ -501,10 +501,10 @@
 #' @format Data of 24 samples of the percentage of tubes in the production run without any flicks.
 #' \describe{
 #'   \item{Yield}{(real number) percentage of tubes without any flicks}
-#'   \item{Extrusion_pressure}{(real number) the extrusion pressure
+#'   \item{Extrusion_pressure}{(factor) the extrusion pressure
 #'    to extrude billets of PTFE resin combined with a lubricant into tubes
 #'    (in PSI with 4 levels: 8500, 8700, 8900, 9100)}
-#'   \item{Batch}{(real number) the resin is manufactured by an external
+#'   \item{Batch}{(factor) the resin is manufactured by an external
 #'   supplier and is delivered to the medical device manufacturer in batches (1,2,3,4,5,6)}
 #' }
 #' @examples
