@@ -465,3 +465,126 @@
 #' @examples
 #' summary(problem3.26)
 "problem3.26"
+
+#' example3.1
+#'
+#' Data from Example 3.1 in Montgomery D. 2019. Design and Analysis of Experiments.
+#' 9th Edition. EMEA Edition. John Wiley & Sons UK
+#'
+#' @format The engineer is interested in determining if the RF power (in W) setting
+#' affects the etch rate (in Å/min) by running an experiment of four levels of RF power
+#' with five replicates.
+#'
+#' @examples
+#' summary(example3.1)
+"example3.1"
+
+#' example3.10
+#'
+#' Data from Example 3.10 in Montgomery D. 2019. Design and Analysis of Experiments.
+#' 9th Edition. EMEA Edition. John Wiley & Sons UK
+#'
+#' @format A textile company weaves a fabric on a large number of looms. It would like
+#' the looms to be homogeneous so that it obtains a fabric of uniform strength. The
+#' engineer suspects that there may be significant variations in strength between looms.
+#'  The engineer selects four looms at random with 4 replicates in each loom.
+#'
+#' @examples
+#' summary(example3.10)
+"example3.10"
+
+#' example4.1
+#'
+#' Data from Example 4.1 in Montgomery D. 2019. Design and Analysis of Experiments.
+#' 9th Edition. EMEA Edition. John Wiley & Sons UK
+#'
+#' @format Data of 24 samples of the percentage of tubes in the production run without any flicks.
+#' \describe{
+#'   \item{Yield}{(real number) percentage of tubes without any flicks}
+#'   \item{Extrusion_pressure}{(real number) the extrusion pressure
+#'    to extrude billets of PTFE resin combined with a lubricant into tubes
+#'    (in PSI with 4 levels: 8500, 8700, 8900, 9100)}
+#'   \item{Batch}{(real number) the resin is manufactured by an external
+#'   supplier and is delivered to the medical device manufacturer in batches (1,2,3,4,5,6)}
+#' }
+#' @examples
+#' summary(example4.1)
+"example4.1"
+
+#' example5.1
+#'
+#' Data from Example 5.1 in Montgomery D. 2019. Design and Analysis of Experiments.
+#' 9th Edition. EMEA Edition. John Wiley & Sons UK
+#'
+#' @format Data of 36 samples of effective life (in hours) observed in the battery
+#' \describe{
+#'   \item{Effective_life}{(real numbers): life of the battery in hours}
+#'   \item{Temperature}{(factor): three levels of temperature in F degree: 15, 75 and 125}
+#'   \item{Material_type}{(factor): three sets of material plate (1, 2 and 3)}
+#' }
+#' @examples
+#' summary(example5.1)
+"example5.1"
+
+#' example5.2
+#'
+#' Data from Example 5.2 in Montgomery D. 2019. Design and Analysis of Experiments.
+#' 9th Edition. EMEA Edition. John Wiley & Sons UK
+#'
+#' @format The impurity present in a chemical product is affected by two factors:
+#' pressure (25, 30, 35, 40, 45) and temperature (100, 125, 150). Data showed a
+#' factorial experiment with a single replicate.
+#'
+#' @examples
+#' summary(example5.2)
+"example5.2"
+
+#' example5.3
+#'
+#' Data from Example 5.3 in Montgomery D. 2019. Design and Analysis of Experiments.
+#' 9th Edition. EMEA Edition. John Wiley & Sons UK
+#'
+#' @format A soft drink bottler is interested in obtaining more uniform fill heights
+#' in the bottles. The data showed 24 samples of the average deviation from the target
+#' fill height. The process engineer can control three variables during the filling process.
+#' \describe{
+#'   \item{percent_carbonation}{three levels of 10, 12 and 14}
+#'   \item{operating_pressure}{two levels of 25 and 30 psi}
+#'   \item{line_speed}{two levels of 200 and 250 bpm}
+#' }
+#' @examples
+#' summary(example5.3)
+"example5.3"
+
+#' example5.6
+#'
+#' Data from Example 5.6 in Montgomery D. 2019. Design and Analysis of Experiments.
+#' 9th Edition. EMEA Edition. John Wiley & Sons UK
+#'
+#' @format An engineer is studying methods for improving the ability to detect targets
+#' on a radar scope. Data showed 24 samples of the intensity level at detection.
+#' \describe{
+#'   \item{ground_clutter}{the amount of background noice in 3 levels of low, medium and high}
+#'   \item{filter_type}{type of filter placed over the screen (2 levels: 1 and 2)}
+#'   \item{operators}{4 different operators served as blocks (1, 2, 3 and 4)}
+#' }
+#' @examples
+#' summary(example5.6)
+"example5.6"
+
+#' example14.16
+#'
+#' Data from the split-plot design example 14.16 in Montgomery D. 2019. Design and Analysis of Experiments.
+#' 9th Edition. EMEA Edition. John Wiley & Sons UK
+#'
+#' @format A paper manufacturer interested in the effect of three different pulp preparation methods and four
+#' different cooking temperatures on the tensile strength of the paper. Data showed the results of 36 runs in a
+#' factorial experiment to test the tensile strength of the paper.
+#' \describe{
+#'   \item{Temperature}{4 different cooking temperatures for the pulp (200, 225, 250 and 275 F degree)}
+#'   \item{pulp_prep_method}{3 different pulp preparation methods (1, 2 and 3)}
+#'   \item{replicate}{3 replicates to obtain a total of 36 observations}
+#' }
+#' @examples
+#' summary(example14.16)
+"example14.16"

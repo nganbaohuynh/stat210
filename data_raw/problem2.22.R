@@ -1,2 +1,2 @@
-load("data_raw//problem2.22.RData")
-usethis::use_data(problem2.22, overwrite=FALSE)
+load("data_raw//example14.16.RData")
+usethis::use_data(example14.16, overwrite=FALSE)
