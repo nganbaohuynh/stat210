@@ -422,7 +422,7 @@
 
 #' problem3.19
 #'
-#' Data from Exercise 3.19 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+#' Data from Exercise 3.19 in "Montgomery, D. Design and Analysis of Experiments." 9th Ed. Wiley.
 #'
 #' @format A regional opera company has tried 3 approaches to solicit donations from 24 potential
 #' sponsors. The sponsors were randomly divided into three groups of eight and one approach was used for each group.
@@ -588,3 +588,19 @@
 #' @examples
 #' summary(example14.16)
 "example14.16"
+
+#' Trout
+#'
+#' Data from excercise 3.15 in "Dean, Voss & Dragulijc. 2017. Design and
+#' Analysis of experiments. 2nd
+#'
+#' @format Data for a total of 40 trouts.
+#' \describe{
+#'   \item{Sulfamerazine}{(Text string (2 letters)) Representing 4 different
+#'   levels: S00, S05, S10 and S15 respectively with different levels of
+#'   sulfamerazine i.e. 5, 10, and 15g per 100 pounds of fish.}
+#'   \item{Hemo}{(Real number) Hemoglobin in blood (g/ 100 mlk) after 35 days.}
+#' }
+#' @examples
+#' summary(Trout)
+"Trout"

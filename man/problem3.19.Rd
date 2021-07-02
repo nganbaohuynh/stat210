@@ -13,7 +13,7 @@ The data showed the dollar amounts of the resulting contributions.
 problem3.19
 }
 \description{
-Data from Exercise 3.19 in "Montgomery, D. Design and Analysis of Experiments. 9th Ed. Wiley."
+Data from Exercise 3.19 in "Montgomery, D. Design and Analysis of Experiments." 9th Ed. Wiley.
 }
 \examples{
 summary(problem3.19)
