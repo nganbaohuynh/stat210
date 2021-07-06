@@ -591,7 +591,7 @@
 
 #' Trout
 #'
-#' Data from excercise 3.15 in "Dean, Voss & Dragulijc. 2017. Design and
+#' Data from exercise 3.15 in "Dean, Voss & Dragulijc. 2017. Design and
 #' Analysis of experiments. 2nd
 #'
 #' @format Data for a total of 40 trouts.
@@ -604,3 +604,19 @@
 #' @examples
 #' summary(Trout)
 "Trout"
+
+#' FishingExperimentwPersons
+#'
+#' Simulated data used for compulsory assignment in STAT210 H20. Trout fishing yield in four different lakes
+#'
+#' @format Data for a total of 48 samples in a three factor fully crossed design.
+#' \describe{
+#'   \item{Yield}{the yield (in hg) of trout after 4 hours fishing}
+#'   \item{Lake}{4 lakes (‘Lake1’, ‘Lake2’, ‘Lake3’ and ‘Lake4’)}
+#'   \item{Hook}{two hooks (a ‘lure’ and a ‘wobler’)}
+#'   \item{Time}{time of the day ('Morning' and 'Evening')}
+#'   \item{Person}{(Text string) Three levels: Person1, Person2, Person3}
+#' }
+#' @examples
+#' summary(FishingExperimentwPersons)
+"FishingExperimentwPersons"

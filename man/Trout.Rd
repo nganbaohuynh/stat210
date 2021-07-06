@@ -17,7 +17,7 @@ Data for a total of 40 trouts.
 Trout
 }
 \description{
-Data from excercise 3.15 in "Dean, Voss & Dragulijc. 2017. Design and
+Data from exercise 3.15 in "Dean, Voss & Dragulijc. 2017. Design and
 Analysis of experiments. 2nd
 }
 \examples{
