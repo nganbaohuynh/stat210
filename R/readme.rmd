@@ -20,12 +20,7 @@ knitr::opts_chunk$set(
 
 ## Installation
 
-To get the current official version of **stat210**, install from CRAN as follows:
-  ```{r, eval = FALSE}
-install.packages("stat210")
-```
-
-Alternatively, the latest development version may be obtained from GitHub:
+The latest development version may be obtained from GitHub:
 
   ```{r, eval = FALSE}
 # First install devtools if needed
