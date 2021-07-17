@@ -8,15 +8,7 @@ Stat 210.
 
 ## Installation
 
-To get the current official version of **stat210**, install from CRAN as
-follows:
-
-``` r
-install.packages("stat210")
-```
-
-Alternatively, the latest development version may be obtained from
-GitHub:
+The latest development version may be obtained from GitHub:
 
 ``` r
 # First install devtools if needed
