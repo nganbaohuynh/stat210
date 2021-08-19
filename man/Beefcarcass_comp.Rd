@@ -21,6 +21,6 @@ carcass) and fat content are graded at 15 point scale(s). The confirmation class
 called KFactor
 }
 \examples{
-lm(KFactor ~ Breed*Gender, data = Beefcarcass_comp)
+lm(KFactor ~ Breed*Gender, data = Beefcarcasses_comp)
 }
 \keyword{datasets}

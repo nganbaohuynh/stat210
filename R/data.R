@@ -635,5 +635,27 @@
 #' are 2 genders, ‘Bull’ (male) and ‘cow’ (female).
 #'
 #' @examples
-#' lm(KFactor ~ Breed*Gender, data = Beefcarcass_comp)
+#' lm(KFactor ~ Breed*Gender, data = Beefcarcasses_comp)
 "Beefcarcass_comp"
+
+#' RifleTokyoOL
+#'
+#' The data to be used are results from Tokyo Olympics, 50-mter rifle in three
+#' positions. The shooters (i.e. athletes) competes in three different shooting
+#' positions (styles), (i) kneeling  ("kne" in Norwegian), (ii) prone ("liggende"
+#' in Norwegian) and (iii) standing position. In the final with 8 athletes, the
+#' athletes shoot three five-shot series in each position, with maximum score
+#' 54,5 points in each series.
+#'
+#' @format
+#' #' #' \describe{
+#'   \item{Points}{(real number) The total number of points in a 5 shot series.}
+#'   \item{Style}{(Textstring) Three possible styles}
+#'   \item{Gender}{(Textstring) Two genders: males and female}
+#'   \item{Athlete}{(Textstring) Name of the athlete}
+#'   \item{Simulated}{(Text string) Yes or No.}
+#' }
+#'
+#' @examples
+#' lm(Points ~ Style, data = RifleTokyoOL)
+"RifleTokyoOL"
