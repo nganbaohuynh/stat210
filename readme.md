@@ -21,4 +21,4 @@ devtools::install_github("nganbaohuynh/stat210")
 # Content
 
 Currently **stat210** contains the data sets used in lectures and
-exercises of the course TestGit
+exercises of the course **STAT210 H22**
